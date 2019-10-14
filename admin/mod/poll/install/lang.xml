@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Опросы]]></name>
+   <lang name="polling_add_access" cache="0"><![CDATA[Кто может участвовать]]></lang>
+   <lang name="polling_add_descr" cache="0"><![CDATA[Описание опроса]]></lang>
+   <lang name="polling_add_finish" cache="0"><![CDATA[Окончание опроса]]></lang>
+   <lang name="polling_add_start" cache="0"><![CDATA[Начало опроса]]></lang>
+   <lang name="polling_add_title" cache="0"><![CDATA[Название опроса]]></lang>
+   <lang name="polling_all_sf" cache="0"><![CDATA[Начало ⁄ Окончание]]></lang>
+   <lang name="polling_error_date" cache="0"><![CDATA[Начало опроса, не может быть позже конца опроса!<br />И даты начала и конца не должны совпадать!]]></lang>
+   <lang name="polling_item_add" cache="0"><![CDATA[Все пункты данного опроса]]></lang>
+   <lang name="polling_item_add_name" cache="0"><![CDATA[Название пункта]]></lang>
+   <lang name="polling_item_add_title" cache="0"><![CDATA[Добавление нового пункта опроса]]></lang>
+   <lang name="polling_item_add_voc" cache="0"><![CDATA[Голосов]]></lang>
+   <lang name="polling_menu_add" cache="0"><![CDATA[Добавить опрос]]></lang>
+   <lang name="polling_menu_all" cache="0"><![CDATA[Все опросы]]></lang>
+   <lang name="polling_menu_edit" cache="0"><![CDATA[Редактировать опрос]]></lang>
+   <lang name="polling_status_end" cache="0"><![CDATA[Закончено]]></lang>
+   <lang name="polling_status_user" cache="0"><![CDATA[Только для пользователей]]></lang>
+   <lang name="polling_one" cache="0"><![CDATA[Опрос]]></lang>
+   <lang name="all_last" cache="0"><![CDATA[Последний]]></lang>
+   <lang name="all_random" cache="0"><![CDATA[Случайный]]></lang>
+   <lang name="del_poll" cache="0"><![CDATA[Удалить опрос]]></lang>
+   <lang name="poll_button" cache="1"><![CDATA[Проголосовать]]></lang>
+   <lang name="poll_dle" cache="1"><![CDATA[Вы уже голосовали в этом опросе]]></lang>
+   <lang name="poll_end" cache="1"><![CDATA[Закончится]]></lang>
+   <lang name="poll_mess_uo" cache="1"><![CDATA[В этом опросе могут участвовать только зарегистрированные пользователи!]]></lang>
+   <lang name="poll_novals" cache="1"><![CDATA[Вы не выбрали ни один из пунктов опроса!]]></lang>
+   <lang name="poll_only" cache="1"><![CDATA[Только пользователи]]></lang>
+   <lang name="poll_resultat" cache="1"><![CDATA[Результаты]]></lang>
+   <lang name="poll_start" cache="1"><![CDATA[Начат]]></lang>
+   <lang name="poll_voc" cache="1"><![CDATA[Голосовало]]></lang>
+   <lang name="poll_vocshort" cache="1"><![CDATA[гол.]]></lang>
+ </set>
+</language>

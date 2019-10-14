@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Фотогалерея]]></name>
+   <lang name="in_gal" cache="0"><![CDATA[В галерею]]></lang>
+   <lang name="new_gal" cache="0"><![CDATA[Новая галерея]]></lang>
+   <lang name="view_popular" cache="0"><![CDATA[Выводить популярные]]></lang>
+   <lang name="view_random" cache="0"><![CDATA[Выводить случайные]]></lang>
+   <lang name="error_type" cache="0"><![CDATA[Изображение или видео имеет не верный формат]]></lang>
+   <lang name="edit_photos" cache="0"><![CDATA[Редактировать фото]]></lang>
+   <lang name="image_resize" cache="0"><![CDATA[Изменить размер]]></lang>
+   <lang name="photos_main_col" cache="0"><![CDATA[Количество столбцов на главной]]></lang>
+   <lang name="save_scr_type" cache="0"><![CDATA[Сохранить в исходном формате]]></lang>
+   <lang name="edit_img" cache="0"><![CDATA[Редактировать изображение]]></lang>
+   <lang name="add_mass" cache="0"><![CDATA[Массовое добавление]]></lang>
+   <lang name="mass_name" cache="0"><![CDATA[Если данное поле не заполнено, название будет взято из имени файла]]></lang>
+   <lang name="mass_path" cache="0"><![CDATA[Каталог, в который будут загружены изображения]]></lang>
+   <lang name="addit_photos" cache="0"><![CDATA[Добавленные фото]]></lang>
+   <lang name="addit_user_photos" cache="0"><![CDATA[Разрешить пользователям добавлять фото]]></lang>
+   <lang name="del_photo" cache="0"><![CDATA[Удалить фото]]></lang>
+   <lang name="all_view" cache="1"><![CDATA[Увеличить фото]]></lang>
+   <lang name="all_prev" cache="1"><![CDATA[Предыдущее]]></lang>
+   <lang name="all_next" cache="1"><![CDATA[Следующее]]></lang>
+   <lang name="all_photo" cache="1"><![CDATA[Фото]]></lang>
+   <lang name="all_photos" cache="1"><![CDATA[Все фото]]></lang>
+   <lang name="add_photos" cache="1"><![CDATA[Добавить фото]]></lang>
+   <lang name="photo_video" cache="1"><![CDATA[Все фото-видео]]></lang>
+   <lang name="photos_data" cache="1"><![CDATA[Добавлено]]></lang>
+   <lang name="photos_img" cache="1"><![CDATA[Изображений]]></lang>
+   <lang name="photos_not" cache="1"><![CDATA[Нет изображений]]></lang>
+   <lang name="photos_pop" cache="1"><![CDATA[Популярные]]></lang>
+   <lang name="photos_random" cache="1"><![CDATA[Случайные]]></lang>
+   <lang name="photos_best" cache="1"><![CDATA[Лучшие]]></lang>
+   <lang name="direct_link" cache="1"><![CDATA[Прямая ссылка]]></lang>
+   <lang name="html_code" cache="1"><![CDATA[HTML код]]></lang>
+   <lang name="bb_code" cache="1"><![CDATA[BB код]]></lang>
+   <lang name="moder_photo" cache="1"><![CDATA[Спасибо, Ваше фото отправлено на проверку модератору!]]></lang>
+   <lang name="public_photo" cache="1"><![CDATA[Спасибо, Ваше фото опубликовано!]]></lang>
+   <lang name="photo_subject" cache="1"><![CDATA[Новое фото на сайте]]></lang>
+   <lang name="photo_msgtext" cache="1"><![CDATA[{date}{br}Было добавлено новое фото.{br}{br}Название: {title}{br}Описание: {text}]]></lang>
+   <lang name="all_new" cache="1"><![CDATA[Новые]]></lang>
+   <lang name="block_photos" cache="1"><![CDATA[Фотогалерея]]></lang>
+ </set>
+</language>

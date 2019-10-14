@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Страницы]]></name>
+   <lang name="add_page" cache="0"><![CDATA[Добавить страницу]]></lang>
+   <lang name="help_mod" cache="0"><![CDATA[Только буквы латинского алфавита и цифры – пробелы и специальные символы, а также разделительные знаки не допускаются]]></lang>
+   <lang name="mod_del_pages" cache="0"><![CDATA[Также, будут удалены все страницы входящие в данный мод]]></lang>
+   <lang name="page_access" cache="0"><![CDATA[Доступ к странице]]></lang>
+   <lang name="page_edit" cache="0"><![CDATA[Редактировать страницу]]></lang>
+   <lang name="page_del" cache="0"><![CDATA[Удалить страницу]]></lang>
+   <lang name="platforms_pages" cache="0"><![CDATA[Платформы страниц]]></lang>
+   <lang name="re_pages" cache="0"><![CDATA[Выбрать модуль]]></lang>
+ </set>
+</language>

@@ -1,0 +1,1 @@
+UPDATE {pref}_language SET `langvals`='Форматы - JPG, GIF, PNG, WEBP<br>Максимальный размер 2 Мб', `langvalsold`='Форматы - JPG, GIF, PNG, WEBP<br>Максимальный размер 2 Мб' WHERE `langpackid` = 1 AND `langsetid` = 1 AND `langvars` = 'img_help';

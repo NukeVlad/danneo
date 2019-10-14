@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Контакты]]></name>
+   <lang name="contact_map" cache="1"><![CDATA[Карта проезда]]></lang>
+   <lang name="email_cong_text" cache="1"><![CDATA[Ваше сообщение успешно отправлено! Мы свяжемся с Вами в самое ближайшее время.<br />С уважением, администрация сайта]]></lang>
+   <lang name="email_error_text" cache="1"><![CDATA[Ваше сообщение должно быть не менее {min} и не более {max} символов.]]></lang>
+   <lang name="email_name" cache="1"><![CDATA[Представьтесь]]></lang>
+   <lang name="email_send" cache="1"><![CDATA[Отправить]]></lang>
+   <lang name="email_text" cache="1"><![CDATA[Текст сообщения]]></lang>
+   <lang name="contact_subject" cache="1"><![CDATA[Связь с администратором]]></lang>
+   <lang name="contact_msgtext" cache="1"><![CDATA[{sendname}, {sendmail}{br}{br}Организация: {sendorg}{br}Телефон: {sendphone}{br}--{br}Сообщение:{br}{text}]]></lang>
+   <lang name="latitude" cache="1"><![CDATA[Широта]]></lang>
+   <lang name="longitude" cache="1"><![CDATA[Долгота]]></lang>
+   <lang name="organization" cache="1"><![CDATA[Организация]]></lang>
+   <lang name="vcard" cache="1"><![CDATA[Контакты организации]]></lang>
+   <lang name="vcard_code" cache="1"><![CDATA[Почтовый индекс]]></lang>
+   <lang name="vcard_country" cache="1"><![CDATA[Страна]]></lang>
+   <lang name="vcard_email" cache="1"><![CDATA[Электронная почта]]></lang>
+   <lang name="vcard_locality" cache="1"><![CDATA[Населенный пункт]]></lang>
+   <lang name="vcard_org" cache="1"><![CDATA[Название организации]]></lang>
+   <lang name="vcard_region" cache="1"><![CDATA[Субъект федерации, район]]></lang>
+   <lang name="vcard_street" cache="1"><![CDATA[Улица, дом, корпус, строение]]></lang>
+   <lang name="vcard_tel" cache="1"><![CDATA[Телефон]]></lang>
+   <lang name="vcard_url" cache="1"><![CDATA[Сайт]]></lang>
+   <lang name="vcard_work" cache="1"><![CDATA[Мы работаем]]></lang>
+ </set>
+</language>

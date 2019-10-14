@@ -1,0 +1,117 @@
+/**
+ * File:        /template/Lite/css/print.css
+ *
+ * Template:    Lite
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2019 Danneo Team
+ */
+
+* {
+	margin: 0; padding: 0;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: #fff;
+	font: 14px/1.4em Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: auto;
+}
+
+img	{ border: 0; }
+
+/* Link */
+a:link,
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover	{
+	color: #999;
+}
+
+/* Position thumb */
+.imgleft {
+	float: left;
+	margin: .4em 1em .4em 0 !important;
+}
+.imgright {
+	float: right;
+	margin: .4em 0 .4em 1em !important;
+}
+.imgtext-left {
+	float: left;
+	margin: 1em 1em .4em 0 !important;
+}
+.imgtext-right {
+	float: right;
+	margin: 1em 0 .4em 1em !important;
+}
+.imgtext-center {
+	float: none;
+	display: block;
+	text-align: center;
+	margin: 1em auto;
+	padding: 0;
+	clear: both;
+}
+
+/* Thumb */
+.thumb img	{
+	padding: 0;
+	border: 2px solid #eee;
+}
+
+/* Print */
+.print {
+	line-height: 1.8em;
+	margin: 0;
+	padding: 0;
+}
+.content {
+	margin: 10px;
+	padding: 15px;
+	border: 1px dotted #ddd;
+}
+.title	{
+	font-size: 18px;
+	margin: 5px 0 10px;
+}
+.text {
+	font-size: 14px;
+}
+.copy {
+	color: #999;
+	font-size: 13px;
+	margin: 0 10px;
+	padding: 10px 15px;
+	border: 1px dotted #ddd;
+}
+.copy p {
+	font: 1em / 1.3em Courier New, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.link {
+	color: #999;
+	margin: 5px 25px;
+	padding: 2px;
+}
+
+/* Clearfix */
+.clearfix:after {
+	display: block;
+	content: ".";
+	line-height: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}

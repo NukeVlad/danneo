@@ -1,0 +1,149 @@
+/**
+ * File:        /admin/template/skin/Dark/css/base.css
+ *
+ * Шаблон Dark
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2019 Danneo Team
+ */
+
+/* Reset */
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: top;
+    background: transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary
+{
+    display: block;
+}
+
+audio, canvas, video {
+    display: inline-block;
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 24px; }
+h4 { font-size: 22px; }
+h5 { font-size: 20px; }
+h6 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td { vertical-align: top; }
+p { margin-bottom: 1em; }
+strong { font-weight: normal; }
+
+/* Img & outline */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+*:focus { outline: none; }
+
+input, a {
+    outline: expression(hideFocus = 'true');
+    outline: none;
+}
+
+hr {
+    font-size: 0;
+    height: 2px;
+    margin: 16px 0 15px;
+    border: 0;
+    border-top: 1px solid #e4e7eb;
+    box-shadow: inset rgba(255,255,255,0.9) 0px 0px 0px 1px;
+}
+hr.sep {
+    border: 0;
+    border-top: 1px solid #e4e7eb;
+    border-bottom: 1px solid #fff;
+    height: 0;
+    width: 75%;
+    margin: 4px 0 5px 65px;
+}
+
+/* Font Color */
+.blue { color: #0099dd !important; }
+.green { color: #08b500 !important; }
+.red { color: #ca0000 !important; }
+.gray { color: #777 !important; }
+.light { color: #999 !important; }
+.black { color: #000 !important; }
+.orange { color: #f90 !important; }
+.white { color: #fff !important; }
+.site {
+	color: #00527b !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+	text-shadow: 0 1px 0 #f2f3f5;
+}
+.server { color: #009054 !important; }
+.alternative { color: #870032 !important; }
+.variable { color: #07c !important; }
+.var { color: #2e9c15 !important; }
+.vars { color: #15689c !important; }
+
+/* Format */
+.bold { font-weight: bold !important; }
+.norm { font-weight: normal !important; }
+.strong { font-weight: bold; }
+.strong span { color: #ba0202; }
+.unpad { clear: both; padding: 0; margin: 0; }
+.pads { padding: 10px; }
+.pad { padding: 1px 5px; margin: 0 0 10px; }
+.upad { padding-top: 5px; }
+.ipad { padding-bottom: 5px; }
+.sline { height: 20px; padding: 0; font-size: 0; clear: both; }
+.width { width: 98%; }
+.smalls { font-size: .9em; }
+.pointer { cursor: pointer; }
+.none { display: none; }
+.not { display: none !important; }
+.block { display: block; }
+.is { font-style: italic; }
+.bbno { border-bottom: none !important; }
+.fill { background-color: #fed !important; }
+.nowrap { white-space: nowrap; }
+.icon { max-width: 36px; max-height: 27px; }
+
+/* Position */
+.vt { vertical-align: top !important; }
+.vm { vertical-align: middle !important; }
+.al { text-align: left !important; }
+.ar { text-align: right !important; }
+.ac { text-align: center !important; }
+.fl { float: left; }
+.fr { float: right; }
+.fn { float: none; }

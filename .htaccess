@@ -1,0 +1,53 @@
+<Files ~ "\.tpl$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+AddType text/x-component .htc
+AddDefaultCharset UTF-8
+
+# php_flag magic_quotes_gpc 0
+# php_flag magic_quotes_runtime 0
+
+<IfModule mod_charset.c>
+  CharsetDisable On
+  CharsetRecodeMultipartForms Off
+</IfModule>
+
+<IfModule php5_module>
+  php_value default_charset UTF-8
+  php_value mbstring.func_overload 7
+  php_value mbstring.http_output UTF-8
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_autoindex.c>
+  Options -Indexes
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/ [NC]
+  RewriteRule ^.*$ /%1 [R=301,L]
+
+# RewriteCond  %{REQUEST_URI} ^/setup(/)?$ [OR]
+# RewriteCond  %{REQUEST_URI} ^/forum(/)?$
+# RewriteRule ^(.+)$ %1 [R=301,L]
+
+  RewriteRule ^index\.php$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond  %{REQUEST_URI} !^/setup(/)?$
+  RewriteCond  %{REQUEST_URI} !^/forum(/)?$
+  RewriteRule ^(.*)$ index.php [L,QSA]
+
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+	ErrorDocument 404 /index.php
+</IfModule>

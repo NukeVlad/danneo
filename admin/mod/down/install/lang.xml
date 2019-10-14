@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Каталог файлов]]></name>
+   <lang name="down_added" cache="0"><![CDATA[Добавленные файлы]]></lang>
+   <lang name="down_loc_expire" cache="0"><![CDATA[Время жизни загрузки]]></lang>
+   <lang name="down_loc_limit" cache="0"><![CDATA[Максимальное количество обращений к файлу]]></lang>
+   <lang name="down_search" cache="0"><![CDATA[Поиск файла]]></lang>
+   <lang name="down_sel_act" cache="0"><![CDATA[Активный (доступен для загрузок)]]></lang>
+   <lang name="down_sel_noact" cache="0"><![CDATA[Не активный (не доступен для загрузок)]]></lang>
+   <lang name="locale_file" cache="0"><![CDATA[Локальный файл]]></lang>
+   <lang name="page_to_file" cache="0"><![CDATA[Страница с файлом]]></lang>
+   <lang name="removed_file" cache="0"><![CDATA[Удалённый файл]]></lang>
+   <lang name="down_no_access" cache="0"><![CDATA[Недоступных]]></lang>
+   <lang name="who_down" cache="0"><![CDATA[Кто может скачивать]]></lang>
+   <lang name="down_brok_no" cache="0"><![CDATA[Список пуст]]></lang>
+   <lang name="down_edit" cache="0"><![CDATA[Редактировать файл]]></lang>
+   <lang name="addit_down" cache="0"><![CDATA[Разрешить пользователям добавлять файлы]]></lang>
+   <lang name="all_mess_broken" cache="0"><![CDATA[Разрешить сообщать о недоступных]]></lang>
+   <lang name="all_mail_broken" cache="0"><![CDATA[Отправлять E-Mail при сообщении о недоступных]]></lang>
+   <lang name="col_message" cache="0"><![CDATA[Количество сообщений]]></lang>
+   <lang name="down_mirrors_error" cache="0"><![CDATA[Количество зеркал, и ссылок на зеркала не совпадает]]></lang>
+   <lang name="down_add_size_hint" cache="0"><![CDATA[Только для файла на удаленном сервере]]></lang>
+   <lang name="down_access" cache="1"><![CDATA[Доступ к файлу]]></lang>
+   <lang name="file_version" cache="1"><![CDATA[Версия файла]]></lang>
+   <lang name="mirrors" cache="1"><![CDATA[Зеркала]]></lang>
+   <lang name="down_col" cache="1"><![CDATA[Загрузок]]></lang>
+   <lang name="published" cache="1"><![CDATA[Опубликовал]]></lang>
+   <lang name="down_size" cache="1"><![CDATA[Размер файла]]></lang>
+   <lang name="search_in_down" cache="1"><![CDATA[Поиск в файлах]]></lang>
+   <lang name="down_broken_link" cache="1"><![CDATA[Файл недоступен!]]></lang>
+   <lang name="down_confirm" cache="1"><![CDATA[Для подтверждения о недоступном файле нажмите OK!]]></lang>
+   <lang name="down_count" cache="1"><![CDATA[Файлов]]></lang>
+   <lang name="down_hits" cache="1"><![CDATA[Просмотров]]></lang>
+   <lang name="down_last" cache="1"><![CDATA[Новые файлы]]></lang>
+   <lang name="down_nocat" cache="1"><![CDATA[Файлы без категории]]></lang>
+   <lang name="down_link" cache="1"><![CDATA[Скачать]]></lang>
+   <lang name="down_name" cache="1"><![CDATA[Название файла]]></lang>
+   <lang name="down_na_text" cache="1"><![CDATA[Отказ в загрузке файла!<br /><br />Возможные причины:<br /><em>1. Вы используете анонимный прокси-сервер или IP адрес приватен.<br />2. Превышено одновременное количество обращений к файлу.<br />3. Неверный адрес файла или была использована удалённая ссылка (другой сайт).</em>]]></lang>
+   <lang name="down_na_title" cache="1"><![CDATA[Отказ в загрузке файла]]></lang>
+   <lang name="down_open" cache="1"><![CDATA[Открыть]]></lang>
+   <lang name="down_ou_user_text" cache="1"><![CDATA[Этот файл могут загружать только зарегистрированные пользователи!<br /> <a href="{reglink}">Новая регистрация</a><br /><a href="{loglink}">Войти со своими данными</a>]]></lang>
+   <lang name="down_trans" cache="1"><![CDATA[Загрузок]]></lang>
+   <lang name="down_type" cache="1"><![CDATA[Тип файла]]></lang>
+   <lang name="down_add_text" cache="1"><![CDATA[Спасибо, Ваш файл отправлен на проверку модератору!]]></lang>
+   <lang name="down_add_public" cache="1"><![CDATA[Спасибо, Ваш файл опубликован!]]></lang>
+   <lang name="dbroken_subject" cache="1"><![CDATA[Сообщение о недоступном файле]]></lang>
+   <lang name="dbroken_msgtext" cache="1"><![CDATA[Было получено сообщение о недоступном файле{br}Страница с файлом: {blink}Так же, это сообщение продублировано в административную панель, раздел «Каталог файлов».]]></lang>
+   <lang name="down_add" cache="1"><![CDATA[Добавить файл]]></lang>
+   <lang name="link_to_file" cache="1"><![CDATA[Ссылка на файл]]></lang>
+   <lang name="down_subject" cache="1"><![CDATA[Добавлен файл на сайт]]></lang>
+   <lang name="down_msgtext" cache="1"><![CDATA[{date}{br}Был добавлен новый файл.{br}{br}Название: {title}{br}Описание: {text}]]></lang>
+ </set>
+</language>

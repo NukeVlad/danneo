@@ -1,0 +1,179 @@
+/**
+ * File:        /template/Lite/css/go.css
+ *
+ * Template:    Lite
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2019 Danneo Team
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	text-decoration: none;
+	border: none;
+	list-style: none;
+	outline: none;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	padding: 17% 5%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+a:hover	{
+    color: #000;
+    border: 0;
+}
+
+*:focus	{ outline: none; }
+input, a	{ outline: expression(hideFocus = 'true'); outline: none; }
+
+body {
+	font: 14px/20px Arial, sans-serif;
+	color: #000;
+	max-width: 720px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	border: 10px solid #e0e0e0;
+}
+
+div {
+	margin: 0;
+	padding: 10%;
+	text-align: center;
+}
+div h1 {
+    display: block;
+    color: #f60;
+    font-size: 81px;
+    font-weight: normal;
+    padding: 0 0 35px;
+}
+div h2 {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 0 10px;
+}
+div h3 {
+    display: block;
+    color: #000;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 0 0 5px;
+}
+div strong {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 0 5px;
+}
+div big {
+    display: block;
+    color: #f60;
+    font-size: 23px;
+    font-weight: normal;
+    padding: 0 0 5px;
+    margin: 0 auto;
+}
+div p {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px 0;
+}
+div .err {
+	color: #f60;
+	font-size: 15px;
+}
+div p mark {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+/* Error Box */
+.error-box {
+	background-color: #fff4d5;
+	color: #000;
+	font-size: 13px;
+	line-height: 1.3em;
+	padding: 10px 10px 10px 45px;
+	position: relative;
+	top: 10px;
+}
+.error-box:before {
+	background: #f90 url(../images/icon/icons-white.png) no-repeat -17px -134px;
+	content: "";
+	width: 30px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+/* Buton */
+.go {
+	background-color: #999;
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-indent: 36px;
+	line-height: 40px;
+	width: 165px;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	top: 25px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.go:before {
+	background-color: #555;
+	font-family: 'icomoon';
+	color: #fff;
+	content: "\e94b"; font-size: 16px; text-indent: 0px; line-height: 40px;
+	line-height: 41px;
+	width: 40px;
+	height: 100%;
+	position: absolute;
+	top: 0;left: 0;
+	z-index: 1;
+}
+.go:active,
+.go:focus {
+    color: #fff;
+    background-color: #000;
+}
+.go:hover      {
+    color: #fff;
+    background-color: #000;
+}
+.go:hover:before {
+    background-color: #555;
+}

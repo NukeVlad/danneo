@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Презентации]]></name>
+   <lang name="add_media" cache="0"><![CDATA[Добавить презентацию]]></lang>
+   <lang name="add_photo_video" cache="0"><![CDATA[Добавить фото-видео]]></lang>
+   <lang name="all_in_media" cache="0"><![CDATA[В презентацию]]></lang>
+   <lang name="all_photo_video" cache="0"><![CDATA[Фото-видео]]></lang>
+   <lang name="photo_video" cache="1"><![CDATA[Все фото-видео]]></lang>
+   <lang name="col_media" cache="0"><![CDATA[Количество презентаций]]></lang>
+   <lang name="edit_media" cache="0"><![CDATA[Редактировать презентацию]]></lang>
+   <lang name="edit_photo_video" cache="0"><![CDATA[Редактировать фото-видео]]></lang>
+   <lang name="media" cache="0"><![CDATA[Презентации]]></lang>
+   <lang name="one_media" cache="0"><![CDATA[Презентация]]></lang>
+   <lang name="present_content" cache="0"><![CDATA[Фото-видео входящие в презентацию]]></lang>
+   <lang name="select_media" cache="0"><![CDATA[Выбрать презентацию]]></lang>
+   <lang name="who_col_main" cache="0"><![CDATA[Количество столбцов ⁄ Главная]]></lang>
+   <lang name="who_page_main" cache="0"><![CDATA[Количество на страницу ⁄ Главная]]></lang>
+   <lang name="del_media" cache="0"><![CDATA[Удалить фото-видео]]></lang>
+   <lang name="media_total" cache="1"><![CDATA[Презентаций]]></lang>
+   <lang name="all_media" cache="1"><![CDATA[Все презентации]]></lang>
+   <lang name="save_scr_type" cache="0"><![CDATA[Сохранить в исходном формате]]></lang>
+   <lang name="add_mass" cache="0"><![CDATA[Массовое добавление]]></lang>
+   <lang name="mass_name" cache="0"><![CDATA[Если данное поле не заполнено, название будет взято из имени файла]]></lang>
+   <lang name="mass_path" cache="0"><![CDATA[Каталог, в который будут загружены изображения]]></lang>
+ </set>
+</language>

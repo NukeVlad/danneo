@@ -1,0 +1,91 @@
+/**
+ * File:        /template/Lite/css/block.css
+ *
+ * Template:    Lite
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2019 Danneo Team
+ */
+
+/* Aside block */
+#left > aside {
+	width: 270px;
+	margin: 0 30px 25px 0;
+}
+#right > aside {
+	width: 270px;
+	margin: 0 0 25px 30px;
+}
+
+.big-block > h4,
+#left > aside > h5,
+#right > aside > h5,
+#center > aside > h4 {
+	background-color: #f0f0f1;
+	color: #000;
+	font-size: 16px;
+	width: 100%;
+	height: auto ! important;
+	margin: 0 0 15px;
+	padding: 12px 20px 11px;
+	text-shadow: 0 1px 0 #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: inset 3px 0 0 0 #999;
+	position: relative;
+}
+.big-block > h4,
+#center > aside > h4 {
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0 0 15px;
+	padding: 12px 20px 12px 62px;
+}
+.big-block > h4:before,
+#center > aside > h4:before {
+	background-color: #999;
+	font-family: 'icomoon';
+	color: #fff;
+	font-size: 20px;
+	text-indent: 12px;
+	line-height: 43px;
+	font-weight: normal;
+	width: 45px;
+	height: 100%;
+	position: absolute;
+	top: 0;left: 0;
+	z-index: 1;
+}
+.big-block > h4:before,
+#center > aside > h4:before { content: "\e93c"; font-size: 21px; text-indent: 12px; line-height: 41px; }
+
+/* Center block */
+.big-block,
+#center > aside {
+	margin: 0 0 25px;
+}
+
+/* Images block */
+#left img,
+#right img,
+#center img,
+.big-block img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Box sizing block */
+.big-block,
+.big-block > h4,
+#left > aside,
+#right > aside,
+#center > aside,
+#left > aside > h5,
+#right > aside > h5,
+#center > aside > h4 {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}

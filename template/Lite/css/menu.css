@@ -1,0 +1,453 @@
+/**
+ * File:        /template/Lite/css/menu.css
+ *
+ * Template:    Lite
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2019 Danneo Team
+ */
+
+/**
+ * Menu top CSS
+ -----------------*/
+body > nav {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #555;
+	background: rgba(80, 83, 86, .9);
+	width: 100%;
+	min-width: 768px;
+	min-height: 51px;
+	position: fixed;
+	top: 125px;
+	z-index: 10;
+}
+.dnmtop:before,
+.dnmtop:after {
+	content: " ";
+	display: table;
+}
+.dnmtop:after {
+	clear: both;
+}
+.dnmtop {
+	*zoom: 1;
+}
+.dnmtop,
+.dnmtop ul {
+	list-style-type: none;
+	background: transparent;
+	text-transform: uppercase;
+	margin: 0;
+}
+.dnmtop li {
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.dnmtop strong {
+	font-weight: normal;
+}
+.dnmtop > li > a,
+.dnmtop > li > strong {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 51px;
+	margin: 0;
+	padding: 0 1.569em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+	position: relative;
+}
+.dnmtop > li > a.disabled {
+    pointer-events: none;
+}
+.dnmtop > li > ul li a,
+.dnmtop > li > ul li strong {
+	background: #000;
+	background: rgba(0,0,0, .5);
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.45em;
+	padding: 1.4em 1.769em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.dnmtop li a:hover,
+.dnmtop li:hover > a {
+	background: #000;
+	color: #fff !important;
+}
+.dnmtop li ul {
+	background: #000;
+	background: rgba(0, 0, 0, .5);
+	padding: 0;
+	position: absolute;
+	left: 0;
+	font-size: 10px;
+	width: 170px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 99;
+	transition: all .25s ease-in-out;
+}
+.dnmtop ul li {
+	float: none;
+}
+.dnmtop li:hover > ul {
+	width: 210px;
+	min-width: 210px;
+	max-height: auto;
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+}
+.dnmtop > li:hover > ul {
+	top: 100%;
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+}
+.dnmtop li > ul  ul {
+	top: 0;
+	left: 90%;
+}
+.dnmtop li > ul li:hover > ul {
+	left: 100%;
+}
+/* CSS Menu top - Active class */
+.dnmtop li a.active,
+.dnmtop li strong.active {
+	background: #000;
+	background: rgba(0, 0, 0, .9);
+}
+/* CSS Menu top - arrow class - level 1 */
+.dnmtop > li > a.arrow:after {
+	display: inline-block;
+	content: "\25bc";
+	color: #999;
+	font-size: 11px;
+	position: absolute;
+	top: 0;
+	right: .6em;
+}
+.dnmtop > li > a.arrow:hover:after {
+	color: #fff;
+}
+/* CSS Menu top - arrow class - level 2 */
+.dnmtop li > ul a.arrow:after {
+	display: inline-block;
+	content: "\25ba";
+	color: #999;
+	font-size: 10px;
+	position: absolute;
+	top: 1.7em;
+	right: .7em;
+}
+.dnmtop li > ul a.arrow:hover:after {
+	color: #fff;
+}
+.dnmtop img {
+	display: inline-block;
+	margin-right: 5px;
+	padding: 0;
+}
+
+/* Menu Top Accordion */
+.js-menu,
+.js-menu ul {
+    list-style-type: none;
+    font-size: 12px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.js-menu a,
+.js-menu strong {
+    display: block;
+    text-decoration: none;
+}
+.js-menu a.active:link,
+.js-menu a.active:visited {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+.js-menu li {
+    margin: 0
+}
+.js-menu > li > a,
+.js-menu > li > strong {
+    background: #505356;
+    color: #fff;
+    display: block;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-indent: 2em;
+    border-top: 1px solid #5c6063;
+    border-bottom: 1px solid #444649;
+    text-decoration: none;
+}
+.js-menu > li:first-child > a {
+    border-top: none
+}
+.js-menu li a:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+.js-menu li a[aria-selected="true"],
+.js-menu li strong[aria-selected="true"] {
+    background-color: #000;
+    color: #fff;
+}
+.js-menu li a[href="javascript:;"]:before {
+    content: "";
+}
+.js-menu li ul li a {
+    background-color: #696c70;
+    word-wrap: break-word;
+    line-height: 1.3em;
+    text-indent: 0;
+    text-transform: none;
+    text-shadow: none;
+    height: auto;
+    padding: 7px 1em 7px 2em;
+    border: 0;
+    border-top: 1px solid #75797d;
+    border-bottom: 1px solid #5d5f63 !important;
+}
+.js-menu li ul li a:last-child {
+    border-bottom: none !important;
+}
+.js-menu li ul li a:hover {
+    background: #82868a;
+}
+.js-menu li ul li a.active:link,
+.js-menu li ul li a.active:visited {
+    background-color: #82868a;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+.js-menu li ul li a.active:before {
+    color: #fff;
+    font-size: 10px;
+    content: '\25ba';
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+
+/* Menu Block Accordion */
+.js-block-menu,
+.js-block-menu ul {
+	list-style-type: none;
+	font-size: 15px;
+	width: auto;
+	margin: 0;
+	padding: 0; 
+}
+.js-block-menu a,
+.js-block-menu strong {
+	display: block;
+	text-decoration: none; 
+}
+.js-block-menu li { margin: 0 }
+.js-block-menu > li > a,
+.js-block-menu > li > strong {
+	background-color: #f0f0f1;
+	color: #333;
+	display: block;
+	line-height: 1.3em;
+	padding: 7px 0 7px 2em;
+	border-top: 1px solid #fff;
+	text-decoration: none; 
+    content: "";
+}
+.js-block-menu > li strong.active {
+	background-color: #000;
+	color: #fff;
+	display: block;
+	line-height: 1.4em;
+	padding: 7px 0 7px 2em;
+	border-top: 1px solid #fff;
+	text-decoration: none; 
+	text-shadow: none;
+}
+.js-block-menu li > a[aria-selected="false"]:before {
+	font-family: 'icomoon';
+    color: #999;
+    font-size: 12px;
+    content: "\e947";
+    line-height: 1.4em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.js-block-menu > li strong.active:before {
+	font-family: 'icomoon';
+    color: #fff;
+    font-size: 12px;
+    content: "\e947";
+    line-height: 1.4em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.js-block-menu li a:hover {
+	background-color: #e3e3e3;
+	color: #000; 
+	text-decoration: none; 
+}
+.js-block-menu li > a[href="javascript:;"]:before {
+    content: "";
+}
+.js-block-menu li a[aria-selected="true"] {
+	background-color: #d4d4d4;
+	color: #000; 
+}
+.js-block-menu li ul li a,
+.js-block-menu li ul li > strong {
+	display: block;
+	background-color: #f9f9f9;
+	color: #666;
+	padding: 7px 1em 7px 2em;
+	border: 0;
+	border-top: 1px solid #fff;
+    position: relative;
+}
+.js-block-menu li ul li a:before {
+	font-family: 'icomoon';
+    color: #d9d9d9;
+    font-size: 12px;
+    content: "\e947";
+    line-height: 1.3em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.js-block-menu li ul li a:hover:before {
+    color: #666;
+}
+	.js-block-menu li ul li a:hover {
+		background-color: #f0f0f1;
+		color: #000;
+	}
+	.js-block-menu li ul li a.active:link,
+	.js-block-menu li ul li a.active:visited {
+		position: relative;
+		background-color: #f0f0f1;
+		color: #000;
+		text-decoration: none;
+		text-shadow: none;
+	}
+	.js-block-menu li ul li a.active:before {
+		font-family: 'icomoon';
+		position: absolute;
+		content: "\e947";
+		font-size: 10px;
+		color: #bf1e2e;
+		top: 9px;
+		left: 10px;
+		text-shadow: none;
+	} 
+
+/* Menu Accordion icon */
+.ui-accordion .ui-accordion-header {
+    position: relative
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+    position: absolute;
+    left: .5em;
+    top: 50%;
+    margin-top: -8px;
+}
+.ui-icon {
+    width: 16px;
+    height: 16px;
+}
+.ui-state-default .ui-icon {
+    background-image: url(../images/icon/ui-icons.png)
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon,
+.ui-state-active .ui-icon {
+    background-image: url(../images/icon/ui-icons.png)
+}
+.ui-icon-triangle-1-e {
+    background-position: -15px -127px
+}
+.ui-icon-triangle-1-s {
+    background-position: -48px -127px
+}
+.ui-icon-carat-1-e {
+    background-position: -32px 0
+}
+.ui-icon-carat-1-s {
+    background-position: -64px 0
+}
+.ui-icon-plus {
+    background-position: -16px -128px
+}
+.ui-icon-minus {
+    background-position: -48px -128px
+}
+
+/* Block menu */
+.dnmblock {
+    margin: 0px;
+    list-style-type: none;
+}
+.dnmblock a {
+    position: relative;
+}
+.dnmblock a:link,
+.dnmblock a:visited {
+    background-color: #fff;
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 1.3em;
+    margin-top: 1px;
+    padding: 6px 10px 6px 26px;
+    -webkit-transition: all 0.1s linear;
+       -moz-transition: all 0.1s linear;
+            transition: all 0.1s linear;
+}
+.dnmblock a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.dnmblock a.active {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.dnmblock a:before {
+    background-color: #f0f0f0;
+    color: #fff;
+    font-size: 11px;
+    content: "\25ba";
+    line-height: 2.6em;
+    text-align: center;
+    width: 14px;
+    height: 100%;
+    padding-left: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dnmblock a:hover:before {
+    background-color: #ccc;
+    color: #fff;
+}
+.dnmblock a.active:before {
+    background-color: #000;
+    color: #fff;
+}

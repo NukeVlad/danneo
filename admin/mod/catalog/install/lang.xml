@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Каталог товаров]]></name>
+   <lang name="symbol_left" cache="0"><![CDATA[Символ слева]]></lang>
+   <lang name="symbol_right" cache="0"><![CDATA[Символ справа]]></lang>
+   <lang name="decimal" cache="0"><![CDATA[Количество знаков после запятой]]></lang>
+   <lang name="currency_def" cache="0"><![CDATA[Установите на 1 если это валюта по умолчанию]]></lang>
+   <lang name="buy" cache="0"><![CDATA[Разрешить покупку товаров]]></lang>
+   <lang name="buy_hint" cache="0"><![CDATA[Если нет, каталог станет обычной витриной]]></lang>
+   <lang name="compares" cache="0"><![CDATA[Разрешить сравнение товаров]]></lang>
+   <lang name="catalog_search" cache="0"><![CDATA[Разрешить поиск товаров]]></lang>
+   <lang name="buy_status" cache="0"><![CDATA[Статусы заказов]]></lang>
+   <lang name="multi_fields" cache="0"><![CDATA[Доп. поля]]></lang>
+   <lang name="tax_fix" cache="0"><![CDATA[Налоговая ставка]]></lang>
+   <lang name="status_order" cache="0"><![CDATA[Статус после оплаты]]></lang>
+   <lang name="testmode" cache="0"><![CDATA[Тестовый режим]]></lang>
+   <lang name="merchantkey" cache="0"><![CDATA[Merchant Key]]></lang>
+   <lang name="delivery_custom" cache="0"><![CDATA[Настраиваемая]]></lang>
+   <lang name="delivery_auto" cache="0"><![CDATA[Автоматизированная]]></lang>
+   <lang name="post_avia" cache="0"><![CDATA[Надбавка за Авиа отправление]]></lang>
+   <lang name="post_max_weight" cache="0"><![CDATA[Максимальный вес отправления]]></lang>
+   <lang name="post_price_value" cache="0"><![CDATA[Плата за сумму объявленной ценности посылки]]></lang>
+   <lang name="post_tarif_weight" cache="0"><![CDATA[Вес усложненной тарификации]]></lang>
+   <lang name="post_max_help" cache="0"><![CDATA[В килограммах]]></lang>
+   <lang name="post_price_help" cache="0"><![CDATA[В процентах]]></lang>
+   <lang name="post_tarif_help" cache="0"><![CDATA[Вес, начиная с которого к стоимости доставки посылки прибавляется 30%]]></lang>
+   <lang name="post_price_one" cache="0"><![CDATA[Стоимость отправки весом до 0.5 килограмм]]></lang>
+   <lang name="post_price_two" cache="0"><![CDATA[Стоимость отправки каждых дополнительных 0.5 килограмм]]></lang>
+   <lang name="size_val" cache="0"><![CDATA[Единица измерения]]></lang>
+   <lang name="modif" cache="0"><![CDATA[Модификация]]></lang>
+   <lang name="decimal_point" cache="0"><![CDATA[Разделитель десятых]]></lang>
+   <lang name="thousand_point" cache="0"><![CDATA[Разделитель тысячных]]></lang>
+   <lang name="maker_search" cache="0"><![CDATA[Активны ли производители в поиске]]></lang>
+   <lang name="buy_info" cache="0"><![CDATA[Дополнительная информация]]></lang>
+   <lang name="catalog_cookie" cache="0"><![CDATA[Префикс Cookie каталога]]></lang>
+   <lang name="statusok" cache="0"><![CDATA[Статус успешной сделки]]></lang>
+   <lang name="statusadd" cache="0"><![CDATA[Статус созданного заказа]]></lang>
+   <lang name="statuspersonal" cache="0"><![CDATA[Статус после ввода личных данных]]></lang>
+   <lang name="statusdelive" cache="0"><![CDATA[Статус после выбора доставки]]></lang>
+   <lang name="statuscheckout" cache="0"><![CDATA[Статус после выбора оплаты]]></lang>
+   <lang name="buyer" cache="0"><![CDATA[Покупатель]]></lang>
+   <lang name="meta_data" cache="0"><![CDATA[Метаданные]]></lang>
+   <lang name="all_field" cache="0"><![CDATA[Все поля]]></lang>
+   <lang name="all_bookmark" cache="0"><![CDATA[Закладки]]></lang>
+   <lang name="display" cache="0"><![CDATA[Отображение]]></lang>
+   <lang name="all_code" cache="0"><![CDATA[Код]]></lang>
+   <lang name="deliv_not_geo" cache="0"><![CDATA[Невозможно добавить способ доставки! Отсутствует страна, для которой она предназначена. Добавьте страну в разделе География!]]></lang>
+   <lang name="response_allow" cache="0"><![CDATA[Разрешить добавлять отзывы]]></lang>
+   <lang name="response_time" cache="0"><![CDATA[Время повторного отзыва]]></lang>
+   <lang name="response_page" cache="0"><![CDATA[Отзывов на страницу]]></lang>
+   <lang name="response_moderate" cache="0"><![CDATA[Модерировать отзывы]]></lang>
+   <lang name="publish" cache="0"><![CDATA[Опубликовать]]></lang>
+   <lang name="amount_zero" cache="0"><![CDATA[0 - неограниченно]]></lang>
+   <lang name="request" cache="0"><![CDATA[Онлайн заявка]]></lang>
+   <lang name="request_email" cache="0"><![CDATA[E-Mail для заявок]]></lang>
+   <lang name="agree" cache="0"><![CDATA[Соглашение]]></lang>
+   <lang name="edit_product" cache="0"><![CDATA[Редактировать товар]]></lang>
+   <lang name="add_maker" cache="0"><![CDATA[Добавить производителя]]></lang>
+   <lang name="edit_maker" cache="0"><![CDATA[Редактировать производителя]]></lang>
+   <lang name="add_cur" cache="0"><![CDATA[Добавить валюту]]></lang>
+   <lang name="order_total" cache="0"><![CDATA[Заказов]]></lang>
+   <lang name="change_price" cache="0"><![CDATA[Изменить цену]]></lang>
+   <lang name="request_help" cache="1"><![CDATA[Без оплаты и оформления заказа]]></lang>
+   <lang name="make_order" cache="1"><![CDATA[Сделать заказ]]></lang>
+   <lang name="send_request" cache="1"><![CDATA[Отправить заявку]]></lang>
+   <lang name="no_prepayment" cache="1"><![CDATA[Без предварительной оплаты!]]></lang>
+   <lang name="make_order_notice" cache="1"><![CDATA[Сформируйте корзину и отправьте Заявку]]></lang>
+   <lang name="will_contact" cache="1"><![CDATA[Мы свяжемся с Вами в ближайшее время!]]></lang>
+   <lang name="sending" cache="1"><![CDATA[идет отправка...]]></lang>
+   <lang name="data_to_request" cache="1"><![CDATA[Данные из корзины будут добавлены в заявку]]></lang>
+   <lang name="your_basket_empty" cache="1"><![CDATA[Ваша корзина пуста]]></lang>
+   <lang name="order_goods" cache="1"><![CDATA[Заказ товара]]></lang>
+   <lang name="order_type" cache="1"><![CDATA[Тип покупки]]></lang>
+   <lang name="thank_order" cache="1"><![CDATA[Благодарим за заказ!]]></lang>
+   <lang name="request_success" cache="1"><![CDATA[Заявка успешно отправлена]]></lang>
+   <lang name="block_day" cache="1"><![CDATA[Товар дня]]></lang>
+   <lang name="new_goods" cache="1"><![CDATA[Новые товары]]></lang>
+   <lang name="nocat_goods" cache="1"><![CDATA[Товары без категории]]></lang>
+   <lang name="only_latin" cache="1"><![CDATA[Только латинские символы и цифры]]></lang>
+   <lang name="stock" cache="1"><![CDATA[Акция]]></lang>
+   <lang name="sum" cache="1"><![CDATA[Сумма]]></lang>
+   <lang name="payment_orders" cache="1"><![CDATA[Оплата заказа]]></lang>
+   <lang name="unimportant" cache="1"><![CDATA[Не важно]]></lang>
+   <lang name="all_there_no" cache="1"><![CDATA[Под заказ]]></lang>
+   <lang name="all_there" cache="1"><![CDATA[В наличии]]></lang>
+   <lang name="def_value" cache="1"><![CDATA[По умолчанию]]></lang>
+   <lang name="def_up" cache="1"><![CDATA[Обновить значение]]></lang>
+   <lang name="announcement" cache="1"><![CDATA[Извещение]]></lang>
+   <lang name="cashier" cache="1"><![CDATA[Кассир]]></lang>
+   <lang name="payee" cache="1"><![CDATA[Получатель платежа]]></lang>
+   <lang name="phone" cache="1"><![CDATA[Телефон]]></lang>
+   <lang name="adress" cache="1"><![CDATA[Адрес]]></lang>
+   <lang name="site" cache="1"><![CDATA[Сайт]]></lang>
+   <lang name="status" cache="1"><![CDATA[Статус]]></lang>
+   <lang name="price" cache="1"><![CDATA[Цена]]></lang>
+   <lang name="group" cache="1"><![CDATA[Группа]]></lang>
+   <lang name="www" cache="1"><![CDATA[Сайт]]></lang>
+   <lang name="fix_price" cache="1"><![CDATA[Фиксированная цена]]></lang>
+   <lang name="agreed_price" cache="1"><![CDATA[Договорная]]></lang>
+   <lang name="percent" cache="1"><![CDATA[Процент]]></lang>
+   <lang name="timeszone" cache="1"><![CDATA[Часовой пояс]]></lang>
+   <lang name="articul" cache="1"><![CDATA[Артикул]]></lang>
+   <lang name="recommended" cache="1"><![CDATA[Рекомендуем]]></lang>
+   <lang name="product_name" cache="1"><![CDATA[Название товара]]></lang>
+   <lang name="product_rec" cache="1"><![CDATA[Похожие товары]]></lang>
+   <lang name="amountmin" cache="1"><![CDATA[Минимальный заказ]]></lang>
+   <lang name="search_more" cache="1"><![CDATA[Расширенный поиск]]></lang>
+   <lang name="del_box" cache="1"><![CDATA[Удалить]]></lang>
+   <lang name="proceed" cache="1"><![CDATA[Продолжить]]></lang>
+   <lang name="firstname" cache="1"><![CDATA[Имя, Отчество]]></lang>
+   <lang name="surname" cache="1"><![CDATA[Фамилия]]></lang>
+   <lang name="state" cache="1"><![CDATA[Регион]]></lang>
+   <lang name="city" cache="1"><![CDATA[Населённый пункт]]></lang>
+   <lang name="zip" cache="1"><![CDATA[Почтовый индекс]]></lang>
+   <lang name="omit" cache="1"><![CDATA[Не указывать]]></lang>
+   <lang name="all_ban" cache="1"><![CDATA[Ваша учётная  запись была забанена!]]></lang>
+   <lang name="company" cache="1"><![CDATA[Название компании]]></lang>
+   <lang name="bank" cache="1"><![CDATA[Наименование банка]]></lang>
+   <lang name="giro" cache="1"><![CDATA[Расчетный счет]]></lang>
+   <lang name="inn" cache="1"><![CDATA[ИНН]]></lang>
+   <lang name="correspondent" cache="1"><![CDATA[Корреспондентский счет]]></lang>
+   <lang name="bik" cache="1"><![CDATA[БИК]]></lang>
+   <lang name="kpp" cache="1"><![CDATA[КПП]]></lang>
+   <lang name="response" cache="1"><![CDATA[Отзывы]]></lang>
+   <lang name="response_one" cache="1"><![CDATA[Отзыв]]></lang>
+   <lang name="response_add" cache="1"><![CDATA[Оставить отзыв]]></lang>
+   <lang name="response_new" cache="1"><![CDATA[Новые отзывы]]></lang>
+   <lang name="response_empty" cache="1"><![CDATA[Вы не заполнили одно из полей или превысили допустимое количество символов!]]></lang>
+   <lang name="response_flood" cache="1"><![CDATA[Вы уже оставили свой отзыв об этом товаре, но всё равно большое спасибо!]]></lang>
+   <lang name="response_added" cache="1"><![CDATA[Спасибо, Ваш отзыв добавлен!]]></lang>
+   <lang name="response_add_moder" cache="1"><![CDATA[Спасибо, Ваш отзыв отправлен на проверку модератору!]]></lang>
+   <lang name="response_add_user" cache="1"><![CDATA[Оставлять свои отзывы могут только <a href="{reglink}">зарегистрированные пользователи</a>]]></lang>
+   <lang name="currency" cache="1"><![CDATA[Валюта]]></lang>
+   <lang name="maker" cache="1"><![CDATA[Производители]]></lang>
+   <lang name="manufacturer" cache="1"><![CDATA[Производитель]]></lang>
+   <lang name="tax" cache="1"><![CDATA[Налоги]]></lang>
+   <lang name="delivery" cache="1"><![CDATA[Доставка]]></lang>
+   <lang name="pay" cache="1"><![CDATA[Оплата]]></lang>
+   <lang name="currency_global" cache="1"><![CDATA[Валюта по умолчанию]]></lang>
+   <lang name="products" cache="1"><![CDATA[Товары]]></lang>
+   <lang name="add_product" cache="1"><![CDATA[Добавить товар]]></lang>
+   <lang name="orders" cache="1"><![CDATA[Заказы]]></lang>
+   <lang name="weight" cache="1"><![CDATA[Вес]]></lang>
+   <lang name="size" cache="1"><![CDATA[Размер]]></lang>
+   <lang name="banktrans" cache="1"><![CDATA[Банковский перевод]]></lang>
+   <lang name="note_bank" cache="1"><![CDATA[Примечания по переводу]]></lang>
+   <lang name="merchantr" cache="1"><![CDATA[WMR Кошелек]]></lang>
+   <lang name="size_hint" cache="1"><![CDATA[Длина x Ширина x Высота]]></lang>
+   <lang name="order" cache="1"><![CDATA[Заказ]]></lang>
+   <lang name="old_price" cache="1"><![CDATA[Старая цена]]></lang>
+   <lang name="catalog_data" cache="1"><![CDATA[Дата выпуска]]></lang>
+   <lang name="associat" cache="1"><![CDATA[Сопутствующие товары]]></lang>
+   <lang name="buy_amount" cache="1"><![CDATA[Продаж]]></lang>
+   <lang name="add_basket" cache="1"><![CDATA[В корзину]]></lang>
+   <lang name="catalog_info" cache="1"><![CDATA[Подробнее]]></lang>
+   <lang name="in_total" cache="1"><![CDATA[Итого]]></lang>
+   <lang name="re_count" cache="1"><![CDATA[Пересчитать]]></lang>
+   <lang name="basket" cache="1"><![CDATA[Корзина]]></lang>
+   <lang name="basket_empty" cache="1"><![CDATA[Корзина пуста]]></lang>
+   <lang name="checkout" cache="1"><![CDATA[Оформить заказ]]></lang>
+   <lang name="delivery_method" cache="1"><![CDATA[Способ доставки]]></lang>
+   <lang name="payment_method" cache="1"><![CDATA[Способ оплаты]]></lang>
+   <lang name="order_notice" cache="1"><![CDATA[Примечания к заказу]]></lang>
+   <lang name="deliv_ground" cache="1"><![CDATA[Наземный транспорт]]></lang>
+   <lang name="deliv_avia" cache="1"><![CDATA[Воздушный транспорт]]></lang>
+   <lang name="weight_error" cache="1"><![CDATA[Вес товаров в заказе, не обслуживается выбранной службой доставки!]]></lang>
+   <lang name="order_empty" cache="1"><![CDATA[История заказов пуста]]></lang>
+   <lang name="order_active" cache="1"><![CDATA[Активные заказы]]></lang>
+   <lang name="order_history" cache="1"><![CDATA[История заказов]]></lang>
+   <lang name="number_order" cache="1"><![CDATA[№ заказа]]></lang>
+   <lang name="order_status" cache="1"><![CDATA[Статус заказа]]></lang>
+   <lang name="del_order" cache="1"><![CDATA[Удаление заказа]]></lang>
+   <lang name="noisset_order" cache="1"><![CDATA[Заказ не найден]]></lang>
+   <lang name="order_detail" cache="1"><![CDATA[Детали]]></lang>
+   <lang name="noisset_delive" cache="1"><![CDATA[Способ доставки не найден]]></lang>
+   <lang name="noisset_payment" cache="1"><![CDATA[Способ оплаты не найден!]]></lang>
+   <lang name="add_agree" cache="1"><![CDATA[С <a href={href} target=_blank>условиями соглашения</a> ознакомлен (а); и согласен (согласна)]]></lang>
+   <lang name="agreement" cache="1"><![CDATA[Условия соглашения]]></lang>
+   <lang name="error_agree" cache="1"><![CDATA[Вы должны согласиться с правилами Условия соглашения!]]></lang>
+   <lang name="catalog_search_error" cache="1"><![CDATA[Вы должны указать ключевое слово для поиска или цену товара!]]></lang>
+   <lang name="nomination" cache="1"><![CDATA[Наименование]]></lang>
+   <lang name="payer" cache="1"><![CDATA[Плательщик]]></lang>
+   <lang name="signature_payer" cache="1"><![CDATA[Подпись плательщика]]></lang>
+   <lang name="details_payment" cache="1"><![CDATA[Назначение платежа]]></lang>
+   <lang name="catalog_last" cache="1"><![CDATA[Последние поступления]]></lang>
+   <lang name="add_feature" cache="1"><![CDATA[Характеристики]]></lang>
+   <lang name="storehouse" cache="1"><![CDATA[На складе]]></lang>
+   <lang name="search_simple" cache="1"><![CDATA[Простой поиск]]></lang>
+   <lang name="receipt" cache="1"><![CDATA[Квитанция]]></lang>
+   <lang name="one_tax" cache="1"><![CDATA[Налог]]></lang>
+   <lang name="order_date" cache="1"><![CDATA[Дата заказа]]></lang>
+   <lang name="all_pcs" cache="1"><![CDATA[шт.]]></lang>
+   <lang name="rub" cache="1"><![CDATA[Руб.]]></lang>
+   <lang name="all_goods" cache="1"><![CDATA[Всего товаров]]></lang>
+   <lang name="to_enter" cache="1"><![CDATA[Для продолжения необходимо авторизоваться]]></lang>
+   <lang name="search_catalog" cache="1"><![CDATA[Поиск в каталоге]]></lang>
+   <lang name="noexit_goods" cache="1"><![CDATA[Ошибка добавления товара! Возможно, товар не существует.]]></lang>
+   <lang name="all_product" cache="1"><![CDATA[Все товары]]></lang>
+   <lang name="del_product" cache="1"><![CDATA[Удалить товар]]></lang>
+   <lang name="bad_price" cache="1"><![CDATA[Цена товара не определена]]></lang>
+   <lang name="error_order" cache="1"><![CDATA[Заказ не создан]]></lang>
+ </set>
+</language>

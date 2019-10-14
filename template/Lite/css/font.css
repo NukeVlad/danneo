@@ -1,0 +1,17 @@
+/*!
+ *  You can use this package under one of these two licenses: CC BY 4.0 or GPL.
+ *  
+ *  http://creativecommons.org/licenses/by/4.0/
+ *  http://www.gnu.org/licenses/gpl.html
+ */
+
+@font-face {
+	font-family:'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot?y1ymgu');
+	src:url('../fonts/icomoon/icomoon.eot?#iefixy1ymgu') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff?y1ymgu') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf?y1ymgu') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg?y1ymgu#icomoon') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}

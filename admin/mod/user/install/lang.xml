@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Пользователи]]></name>
+   <lang name="act_no_confirm" cache="0"><![CDATA[Не подтверждённые по E-Mail]]></lang>
+   <lang name="act_registr" cache="0"><![CDATA[Активация регистраций ]]></lang>
+   <lang name="act_registr_mail" cache="0"><![CDATA[Через электронную почту]]></lang>
+   <lang name="act_registr_no" cache="0"><![CDATA[Без активации]]></lang>
+   <lang name="addit_fields" cache="0"><![CDATA[Дополнительные поля]]></lang>
+   <lang name="add_field" cache="0"><![CDATA[Добавить поле]]></lang>
+   <lang name="adm_mail_registr" cache="0"><![CDATA[Письмо администратору о регистрации пользователя]]></lang>
+   <lang name="all_element" cache="0"><![CDATA[Элемент]]></lang>
+   <lang name="all_groups" cache="0"><![CDATA[Дополнительные группы]]></lang>
+   <lang name="all_groups_only" cache="0"><![CDATA[Только для групп]]></lang>
+   <lang name="all_new_string" cache="0"><![CDATA[Каждый с новой строки!]]></lang>
+   <lang name="all_user" cache="0"><![CDATA[Пользователь]]></lang>
+   <lang name="user_new" cache="0"><![CDATA[Новые пользователи]]></lang>
+   <lang name="ban" cache="0"><![CDATA[Блокирован]]></lang>
+   <lang name="edit_user" cache="0"><![CDATA[Редактировать пользователя]]></lang>
+   <lang name="form_name_field" cache="0"><![CDATA[Название в форме]]></lang>
+   <lang name="group_ban" cache="0"><![CDATA[Заблокированные]]></lang>
+   <lang name="group_def" cache="0"><![CDATA[Группа при регистрации новых пользователей]]></lang>
+   <lang name="input_apart_info" cache="0"><![CDATA[<div class="infos"><b>Текстовый разделитель</b> используют, когда необходимо отделить один из элементов формы текстовым комментарием.</div>]]></lang>
+   <lang name="input_radio_info" cache="0"><![CDATA[<div class="infos"><b>Переключатели</b> используют, когда необходимо выбрать один единственный вариант из предложенных.</div><div class="infosexample"><b>Пример :</b><br /><input type="radio" name="a" value="a1">Ответ №1<br /><input type="radio" name="a" value="a2">Ответ №2<br /><input type="radio" name="a" value="a3">Ответ №2</div>]]></lang>
+   <lang name="input_select_info" cache="0"><![CDATA[<div class="infos"><b>Выпадающий список</b> используют, когда необходимо выбрать значение из предложенного списка.</div><div class="infosexample"><b>Пример :</b><br /><select> <option>Значение №1</option><option>Значение №2</option><option>Значение №3</option> </select></div>]]></lang>
+   <lang name="input_textarea_info" cache="0"><![CDATA[<div class="infos">Многострочное текстовое поле используют, когда необходимо разрешить ввод большого объема текста</div><div class="infosexample"><p>Пример:</p><textarea rows="5" cols="45" style="width:99%">Текст</textarea></div>]]></lang>
+   <lang name="input_text_info" cache="0"><![CDATA[<div class="infos"><b>Однострочное текстовое поле</b> используют, для ввода небольших объемов текста</div><div class="infosexample"><b>Пример :</b><br /><input value="Текст" size="60" type="text"></div>]]></lang>
+   <lang name="just_add" cache="0"><![CDATA[Просто добавить]]></lang>
+   <lang name="maxi_login_sym" cache="0"><![CDATA[Макс. количество символов в логине]]></lang>
+   <lang name="maxi_pass_sym" cache="0"><![CDATA[Макс. количество символов в пароле]]></lang>
+   <lang name="mini_login_sym" cache="0"><![CDATA[Мин. количество символов в логине]]></lang>
+   <lang name="mini_pass_sym" cache="0"><![CDATA[Мин. количество символов в пароле]]></lang>
+   <lang name="new_pass" cache="0"><![CDATA[Новый пароль]]></lang>
+   <lang name="user_list" cache="0"><![CDATA[Список пользователей]]></lang>
+   <lang name="register_user" cache="0"><![CDATA[Добавить пользователя]]></lang>
+   <lang name="request_activate_user" cache="0"><![CDATA[Требовать активации учётной записи]]></lang>
+   <lang name="re_mail_hint" cache="0"><![CDATA[Смогут ли пользователи изменять в профиле свой E-Mail]]></lang>
+   <lang name="re_pass_hint" cache="0"><![CDATA[Смогут ли пользователи изменять в профиле свой пароль]]></lang>
+   <lang name="send_password_user" cache="0"><![CDATA[Отравить пароль пользователю]]></lang>
+   <lang name="type_check" cache="0"><![CDATA[Тип проверки]]></lang>
+   <lang name="type_field" cache="0"><![CDATA[Тип поля]]></lang>
+   <lang name="group_total" cache="0"><![CDATA[Групп пользователей]]></lang>
+   <lang name="del_user" cache="0"><![CDATA[Удалить пользователя]]></lang>
+   <lang name="admin_nu_subject" cache="1"><![CDATA[Новая регистрация на сайте]]></lang>
+   <lang name="enter" cache="1"><![CDATA[Войти]]></lang>
+   <lang name="enter_profile" cache="1"><![CDATA[Вход в профиль]]></lang>
+   <lang name="icq_error" cache="1"><![CDATA[Номер ICQ может состоять только из чисел!]]></lang>
+   <lang name="login" cache="1"><![CDATA[Имя пользователя]]></lang>
+   <lang name="msn_error" cache="1"><![CDATA[Неверный формат MSN!]]></lang>
+   <lang name="not_login_reg" cache="1"><![CDATA[Это имя запрещено для регистрации!]]></lang>
+   <lang name="no_mail" cache="1"><![CDATA[Пользователя с E-Mail <a href="mailto:{lost_mail}">{lost_mail}</a> не обнаружено!]]></lang>
+   <lang name="only_user" cache="1"><![CDATA[Только для зарегистрированных пользователей]]></lang>
+   <lang name="private_message" cache="1"><![CDATA[Личные сообщения]]></lang>
+   <lang name="rest_pass" cache="1"><![CDATA[Восстановление пароля]]></lang>
+   <lang name="send_pass" cache="1"><![CDATA[Забыли пароль?]]></lang>
+   <lang name="up_pass_subject" cache="1"><![CDATA[Запрос на смену пароля]]></lang>
+   <lang name="user_data" cache="1"><![CDATA[Личные данные]]></lang>
+   <lang name="user_register" cache="1"><![CDATA[Зарегистрироваться]]></lang>
+   <lang name="your_profile" cache="1"><![CDATA[Ваш профиль]]></lang>
+   <lang name="act_user_title" cache="1"><![CDATA[Ваша учётная запись активирована!]]></lang>
+   <lang name="avatar" cache="1"><![CDATA[Аватар]]></lang>
+   <lang name="avatar_add" cache="1"><![CDATA[Выбрать аватар]]></lang>
+   <lang name="avatar_change" cache="1"><![CDATA[Изменить аватар]]></lang>
+   <lang name="avatar_clear" cache="1"><![CDATA[Без аватара]]></lang>
+   <lang name="bad_link_up_pass" cache="1"><![CDATA[Неверная ссылка на восстановление пароля.]]></lang>
+   <lang name="bad_login_user" cache="1"><![CDATA[Пользователь с таким именем уже зарегистрирован!]]></lang>
+   <lang name="bad_mail_user" cache="1"><![CDATA[Пользователь с таким E-Mail уже зарегистрирован!]]></lang>
+   <lang name="act_user_text" cache="1"><![CDATA[Активация Вашей учётной записи успешно завершена!]]></lang>
+   <lang name="lost_pass_send" cache="1"><![CDATA[На указанный Вами адрес было отправлено письмо с инструкцией по смене пароля.<br />Пожалуйста, проверьте почтовый ящик.]]></lang>
+   <lang name="congr_user_text" cache="1"><![CDATA[Поздравляем с регистрацией на нашем сайте!<br />На указанный Вами E-Mail было отправлено письмо со ссылкой для активации!]]></lang>
+   <lang name="admin_nu_msgtext" cache="1"><![CDATA[На вашем сайте был зарегистрирован новый пользователь.{br}{br}Логин: {ulogin}{br}E-Mail: {umail}]]></lang>
+   <lang name="registr_act_msgtext" cache="1"><![CDATA[Для подтверждения регистрации и активации Вашей учётной записи, в течении недели (до {rtime}) необходимо перейти по ссылке активации.{br}{br}Ваше имя: {ulogin}{br}Ваш пароль: {upass}{br}{br}Ссылка активации: {alink}{br}С уважением, Администрация сайта {site}{br}{site_url}]]></lang>
+   <lang name="registr_ok_msg" cache="1"><![CDATA[Поздравляем с регистрацией на нашем сайте!{br}{br}Ваш логин: {ulogin}{br}Ваш пароль: {upass}{br}{br}Ваш профиль: {link}{br}С уважением, администрация сайта: {site}{br}{site_url}]]></lang>
+   <lang name="up_new_pass" cache="1"><![CDATA[Ваш пароль был изменён.<br />Пожалуйста, <a href="{login}">пройдите авторизацию</a> с указанным в письме именем и паролем.]]></lang>
+   <lang name="up_pass_msgtext" cache="1"><![CDATA[Был сделан запрос на смену пароля, если Вы не выполняли данный запрос, или сообщение получено по ошибке - просто удалите данное письмо.{br}{br}В противном случае, перейдите по ссылке:{br}{nplink}{br}{br}Ваше имя: {uname}{br}Новый пароль: {npass}{br}{br}С уважением, Администрация сайта {site}{br}{site_url}]]></lang>
+   <lang name="pass_hint" cache="1"><![CDATA[Пароль должен быть не менее {minpass} и не более {maxpass} символов, и содержать только буквы латинского алфавита и цифры, пробелы и специальные символы не допускаются]]></lang>
+   <lang name="rest_pass_hint" cache="1"><![CDATA[Для восстановления пароля введите E-Mail, указанный при регистрации.]]></lang>
+   <lang name="not_coin_pass" cache="1"><![CDATA[Пароли не совпадают!]]></lang>
+   <lang name="possible_reason" cache="1"><![CDATA[Возможные причины:]]></lang>
+   <lang name="pass_success" cache="1"><![CDATA[Пароль успешно обновлен]]></lang>
+   <lang name="user_total" cache="1"><![CDATA[Пользователей]]></lang>
+ </set>
+</language>

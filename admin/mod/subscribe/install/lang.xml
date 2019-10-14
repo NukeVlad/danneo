@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Рассылки]]></name>
+   <lang name="subscribe_all_for" cache="0"><![CDATA[Получатели]]></lang>
+   <lang name="subscribe_arh_format" cache="0"><![CDATA[Формат]]></lang>
+   <lang name="subscribe_arh_mail" cache="0"><![CDATA[E-Mail]]></lang>
+   <lang name="subscribe_arh_msgtext" cache="0"><![CDATA[Текст]]></lang>
+   <lang name="subscribe_arh_sendnow" cache="0"><![CDATA[Повторить]]></lang>
+   <lang name="subscribe_arh_subject" cache="0"><![CDATA[Тема]]></lang>
+   <lang name="subscribe_autor_html" cache="0"><![CDATA[<font face="Arial, Helvetica" size="2"><font color="#9099A1"><br /><br /><hr style="margin-bottom: 9px; height: 1px; BORDER: none; color:#cfcfcf; background-color: #cfcfcf;" />Вы получили это письмо, потому что являетесь нашим подписчиком<br />Отписаться от рассылки: <a href="{unsub}" target="_blank">{unsub}</a><br />--</font><br />С уважением,<br />администрация: <font color="#D95204">{site}</font><br /><a href="{siteurl}" target="_blank">{siteurl}</a></font>]]></lang>
+   <lang name="subscribe_autor_text" cache="0"><![CDATA[<br /><br />--<br />Вы получили это письмо потому, что являетесь нашим подписчиком<br />Отписаться от рассылки: {unsub}<br /><br />С уважением,<br />Администрация: {site}]]></lang>
+   <lang name="subscribe_error_empty" cache="0"><![CDATA[Нет адресов для рассылки!<br />Возможно Вы не выбрали получателей рассылки, или они подписаны на другой формат!<br />]]></lang>
+   <lang name="subscribe_exp_add_name" cache="0"><![CDATA[Добавлять в экспорт имена]]></lang>
+   <lang name="subscribe_exp_raz" cache="0"><![CDATA[Разделитель между подписчиками]]></lang>
+   <lang name="subscribe_exp_raz_nm" cache="0"><![CDATA[Разделитель между E-Mail и именами]]></lang>
+   <lang name="subscribe_exp_subs" cache="0"><![CDATA[Подписчиков]]></lang>
+   <lang name="subscribe_exp_user" cache="0"><![CDATA[Добавить пользователей]]></lang>
+   <lang name="subscribe_exp_where_brow" cache="0"><![CDATA[Сохранить браузером]]></lang>
+   <lang name="subscribe_exp_where_dump" cache="0"><![CDATA[Сохранить в директорию <strong>dump</strong>]]></lang>
+   <lang name="subscribe_format" cache="0"><![CDATA[Формат]]></lang>
+   <lang name="subscribe_format_mail_for" cache="0"><![CDATA[Подписчики формат]]></lang>
+   <lang name="subscribe_format_mail_ignore" cache="0"><![CDATA[Игнорировать формат]]></lang>
+   <lang name="subscribe_format_mail_ignore_hint" cache="0"><![CDATA[Если Вы укажите игнорирование, то рассылку получат все подписчики в формате данного шаблона.]]></lang>
+   <lang name="subscribe_html" cache="0"><![CDATA[<font face="Arial, Helvetica" size="2">{text}</font>]]></lang>
+   <lang name="subscribe_last_news" cache="0"><![CDATA[Последние новости]]></lang>
+   <lang name="subscribe_mail_for" cache="0"><![CDATA[Подписчики]]></lang>
+   <lang name="subscribe_menu_all" cache="0"><![CDATA[Лист рассылок]]></lang>
+   <lang name="subscribe_menu_create" cache="0"><![CDATA[Создание новой рассылки]]></lang>
+   <lang name="subscribe_menu_export" cache="0"><![CDATA[Экспорт подписчиков]]></lang>
+   <lang name="subscribe_new_add_news" cache="0"><![CDATA[Добавление в рассылку последних новостей]]></lang>
+   <lang name="subscribe_new_add_news_title" cache="0"><![CDATA[Добавить новости]]></lang>
+   <lang name="subscribe_new_col" cache="0"><![CDATA[Количество]]></lang>
+   <lang name="subscribe_new_title" cache="0"><![CDATA[Создание новой рассылки]]></lang>
+   <lang name="subscribe_return_mail" cache="0"><![CDATA[Обратный E-Mail]]></lang>
+   <lang name="subscribe_send" cache="0"><![CDATA[Отправить]]></lang>
+   <lang name="subscribe_send_col" cache="0"><![CDATA[Осталось отправить ⁄ Уже отправлено]]></lang>
+   <lang name="subscribe_send_ends" cache="0"><![CDATA[Отправка закончена]]></lang>
+   <lang name="subscribe_send_mail" cache="0"><![CDATA[За этот цикл]]></lang>
+   <lang name="subscribe_send_re" cache="0"><![CDATA[Продолжить отправку]]></lang>
+   <lang name="subscribe_send_work" cache="0"><![CDATA[Работать с рассылкой]]></lang>
+   <lang name="subscribe_user_for" cache="0"><![CDATA[Пользователи]]></lang>
+   <lang name="subscribe_while" cache="0"><![CDATA[Писем за цикл]]></lang>
+   <lang name="del_subscribe" cache="0"><![CDATA[Удалить рассылку]]></lang>
+   <lang name="del_subscribe_user" cache="0"><![CDATA[Удалить подписчика]]></lang>
+   <lang name="subscribe_while_hint" cache="0"><![CDATA[Вы можете создать циклическую рассылку, укажите ниже количество отправляемых писем за один раз.<br />Если указано <span class=alternative>0</span> вся рассылка будет отправлена за один раз.<br /><span class=alternative>Не рекомендуется делать рассылку за один раз, при большом количестве подписчиков!</span>]]></lang>
+   <lang name="congr_subscribe_text" cache="1"><![CDATA[На указанный Вами e-mail отправлено письмо, с ссылкой для подтверждения подписки.]]></lang>
+   <lang name="congr_unsubscribe_msg" cache="1"><![CDATA[На указанный Вами e-mail отправлено письмо, с ссылкой для подтверждения отказа от рассылки.]]></lang>
+   <lang name="email_not_subscribe" cache="1"><![CDATA[Данный e-mail не числится в базе подписчиков.]]></lang>
+   <lang name="subscribe_act_msgtext" cache="1"><![CDATA[Здравствуйте, {subname}{br}{br}для подтверждения подписки необходимо перейти по этой ссылке:{br}{sublink}{br}{br}С уважением,{br}{site}]]></lang>
+   <lang name="subscribe_act_subject" cache="1"><![CDATA[Подтверждение подписки на рассылку]]></lang>
+   <lang name="subscribe_act_text" cache="1"><![CDATA[Ваша подписка была подтверждена<br />Надеемся, что наша рассылка окажется Вам полезной.]]></lang>
+   <lang name="subscribe_act_title" cache="1"><![CDATA[Подтверждение подписки]]></lang>
+   <lang name="subscribe_button" cache="1"><![CDATA[Подписаться]]></lang>
+   <lang name="subscribe_confirm" cache="1"><![CDATA[Подписка подтверждена]]></lang>
+   <lang name="subscribe_demand_ok" cache="1"><![CDATA[Заявка успешно выполнена]]></lang>
+   <lang name="subscribe_email_remove" cache="1"><![CDATA[Ваш e-mail удален из базы подписчиков!]]></lang>
+   <lang name="subscribe_error_mail" cache="1"><![CDATA[Указанный Вами E-Mail уже подписан на рассылку!]]></lang>
+   <lang name="subscribe_link_bad" cache="1"><![CDATA[Ссылка подтверждения подписки не верна!]]></lang>
+   <lang name="subscribe_mail_noact" cache="1"><![CDATA[Заявка с данным e-mail принята, но подписка не подтверждена.<br /> Проверьте почту!]]></lang>
+   <lang name="subscribe_opt_out" cache="1"><![CDATA[Подтверждение отказа от рассылки]]></lang>
+   <lang name="subscribe_your_format" cache="1"><![CDATA[Формат]]></lang>
+   <lang name="unsubscribe" cache="1"><![CDATA[Отписаться от рассылки]]></lang>
+   <lang name="unsubscribe_msg" cache="1"><![CDATA[Здравствуйте,<br /><br />для подтверждения отписки необходимо перейти по этой ссылке:<br />{link}<br /><br />С уважением,<br />{site}]]></lang>
+ </set>
+</language>

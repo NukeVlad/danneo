@@ -1,0 +1,4 @@
+<Files ".htaccess">
+deny from all
+</Files>
+

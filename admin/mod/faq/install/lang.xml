@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Вопросы-ответы]]></name>
+   <lang name="faq_add" cache="0"><![CDATA[Добавить вопрос-ответ]]></lang>
+   <lang name="faq_cat_mail" cache="0"><![CDATA[E-Mail для извещения о заданном вопросе]]></lang>
+   <lang name="faq_cat_mail_hint" cache="0"><![CDATA[Если поле не заполнено, все извещения о новых вопросах будут отправлены на основной E-Mail.]]></lang>
+   <lang name="faq_database" cache="0"><![CDATA[Опубликовать]]></lang>
+   <lang name="faq_question_answer" cache="0"><![CDATA[Ответ на Ваш вопрос]]></lang>
+   <lang name="faq_edit" cache="0"><![CDATA[Редактировать вопрос-ответ]]></lang>
+   <lang name="faq_del" cache="0"><![CDATA[Удалить вопрос-ответ]]></lang>
+   <lang name="faq_add_quest" cache="1"><![CDATA[Добавить вопрос]]></lang>
+   <lang name="faq_all" cache="1"><![CDATA[Все вопросы-ответы]]></lang>
+   <lang name="faq_anspublic" cache="1"><![CDATA[Задан]]></lang>
+   <lang name="faq_ask" cache="1"><![CDATA[Задать вопрос]]></lang>
+   <lang name="faq_error_name" cache="1"><![CDATA[Ваше имя должно быть не менее {minname} и не более {maxname} символов!]]></lang>
+   <lang name="faq_error_text" cache="1"><![CDATA[Ваш вопрос должен быть не менее {minname} и не более {maxname} символов!]]></lang>
+   <lang name="faq_flood" cache="1"><![CDATA[Вы не можете так часто задавать вопросы, попробуйте чуть позже!]]></lang>
+   <lang name="faq_question" cache="1"><![CDATA[Вопрос]]></lang>
+   <lang name="faq_answer" cache="1"><![CDATA[Ответ]]></lang>
+   <lang name="new_faq" cache="1"><![CDATA[Новые вопросы]]></lang>
+   <lang name="faq_nocat" cache="1"><![CDATA[Вопросы без категории]]></lang>
+   <lang name="all_faq" cache="1"><![CDATA[Всего вопросов]]></lang>
+   <lang name="faq_success" cache="1"><![CDATA[Ваш вопрос был принят, и отправлен на модерацию]]></lang>
+ </set>
+</language>

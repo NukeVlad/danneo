@@ -1,0 +1,1 @@
+<a href="{caturl}"><img src="{site_url}/{icon}" alt="{catname}" /></a>

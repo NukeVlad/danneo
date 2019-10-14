@@ -1,0 +1,3 @@
+{content}
+{pages}
+{search}

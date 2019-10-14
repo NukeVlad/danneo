@@ -1,0 +1,17 @@
+/**
+ * File:        /admin/template/skin/Dark/css/ie.9.css
+ *
+ * Шаблон Dark
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2019 Danneo Team
+ */
+
+.center {
+	height: auto;
+}
+
+select {
+    padding-right: 1px;
+}

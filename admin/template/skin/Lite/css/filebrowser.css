@@ -1,0 +1,231 @@
+/**
+ * File:        /admin/template/skin/Dark/css/filebrowser.css
+ *
+ * Шаблон Dark
+ * Файл оформления файл-браузера панели управления
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2019 Danneo Team
+ */
+
+.fb-pad {
+	padding: 5px;
+	margin: 0;
+	height: 340px;
+	overflow-y: scroll;
+	position: relative;
+}
+.fb-loader-center {
+	display: block;
+	text-align: center;
+	margin-top: -12px;
+	margin-left: -12px;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+#olupload {
+	padding: 0;
+	margin: 0;
+}
+#olupload li {
+	padding: 0;
+	margin: 0;
+}
+#folder {
+	background-color: #fff;
+	border: 1px solid #95a3b9;
+	box-shadow: inset #fff 0px 0px 0px 1px;
+	margin: 0;
+	padding: 1px;
+	display: block;
+	height: 350px;
+}
+#files {
+	background-color: #fff;
+	border: 1px solid #95a3b9;
+	box-shadow: inset #fff 0px 0px 0px 1px;
+	margin: 0;
+	padding: 1px;
+	display: block;
+	height: 350px;
+}
+
+a.fb-link {
+	background: url(../images/add.gif) no-repeat 0 50%;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 27px;
+}
+a.fb-link:hover {
+	text-decoration: none !important;
+}
+
+/**/
+.section {
+	background: #fff;
+	margin: 0;
+	padding: 1px;
+	z-index: -1;
+	border: 1px solid #95a3b9;
+	box-shadow: inset #fff 0px 0px 0px 1px;
+}
+
+/**/
+.fb-work a:link,
+.fb-work a:visited {
+	color: #4173a0;
+	text-decoration: none;
+}
+.fb-work a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.fb-work {
+	font-size: 12px;
+	background: #fff;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 1px;
+}
+.fb-work table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+.fb-work caption {
+	background: #e1e5eb;
+    color: #33597c;
+	font: bold .9em/1.4 Verdana, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 15px 9px;
+	border-bottom: 1px solid #fff;
+}
+.fb-work th {
+	color: #333;
+	text-align: left;
+	font-weight: bold;
+	background: #e1e5eb;
+	padding: 8px 15px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	vertical-align: middle !important;
+}
+.fb-work th:first-child strong { color: #961e00; font-weight: bold; vertical-align: middle; padding-right: 5px;}
+.fb-work th:last-child { border-right: 0; }
+.fb-work td {
+	color: #333;
+	font-size: 1em;
+	text-align: left;
+	vertical-align: middle;
+	background: #f7f9fc;
+	padding: 7px 15px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.fb-work td:first-child {
+	background: #f0f2f5;
+	color: #000;
+	text-align: left;
+	padding: 7px 15px;
+	width: 20%;
+	vertical-align: top;
+}
+.fb-work td:last-child { border-right: 0; }
+.fb-work td:nth-child(odd) { background: #f0f2f5; }
+.fb-work td.first span { color: #961e00; font-weight: bold; }
+.fb-work td.gov a { padding-right: 3px; }
+.fb-work.check { background: #eef !important; }
+.fb-work td:last-child strong	{ color: #961e00; }
+.fb-work tr.tfoot td { background: #f0f2f5; text-align: center; border-bottom: 0; }
+.fb-work td.no-active { background: #fee; }
+.fb-work.courier { font: 1em/1.4 'Courier New', arial, sans-serif !important; }
+.fb-work td.bg-null { background: #f5f8fa !important; }
+.fb-work td.main { background: #f0f2f5 !important; }
+.fb-work td.parent { background: #f5f8fa !important; }
+
+.fb-work-sort { background-color: #f0f2f5 !important; }
+.fb-work-sort img { float: right; margin: 4px 0 0; }
+.fb-work-sort a { color: #000 !important; }
+#fb-work-comm { background-color: #f7f9fc; overflow-y: scroll; position: relative; }
+.fb-work td.sort { background-color: #f0f2f5 !important; font-size: 1em; padding: 10px 25px 10px 15px !important; vetical-align: middle; }
+.fb-work td.sort > .pages    {
+	display: inline-block;
+	background-color: #ae4752;
+	font-size: 1em;
+	color: #fff !important;
+	line-height: 1.6em;
+	text-align: center;
+	height: 1.8em;
+	min-width: 2.1em !important;
+	padding: 1px 4px 1px;
+	margin-right: 1px;
+	text-shadow: none;
+}
+.fb-work td.sort > a.pages:link,
+.fb-work td.sort > a.pages:visited  {
+	display: inline-block;
+	background-color: #b9bec9;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+	line-height: 1.6em;
+	height: 1.8em;
+	min-width: 2.1em !important;
+	padding: 1px 4px 1px;
+	text-shadow: none;
+}
+.fb-work td.sort > a.pages:hover    {
+	color: #fff;
+	background-color: #9ca3b3;
+	text-decoration: none !important;
+}
+.fb-work .but,
+.fb-work a.but:link,
+.fb-work a.but:visited  {
+	background-color: #d6d9e0;
+    font-size: 12px;
+    color: #323640;
+    height: 2.2em;
+    line-height: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	padding: 1px 1em 1px;
+	overflow: hidden;
+	cursor: pointer;
+	border: 0;
+	border-bottom: 2px solid #b8bfca;
+	text-shadow: 0 1px 0 #e5e6eb;
+	position: relative;
+	top: -1px;
+}
+.fb-work .but:hover,
+.fb-work .but:focus,
+.fb-work a.but:hover,
+.fb-work a.but:active  {
+	color: #fff !important;
+	background-color: #6395c1;
+	border: 0;
+	border-bottom: 2px solid #457cad;
+	text-shadow: none;
+}
+.fb-work a.but  {
+	padding: 5px 1em 4px !important;
+}
+
+.clears { clear: both; }
+.jcrop-holder { text-align: left; }
+.jcrop-vline,
+.jcrop-hline { font-size: 0; position: absolute; background: white url('../images/jcrop.gif')top left repeat; }
+.jcrop-vline { height: 100%; width: 1px !important; }
+.jcrop-hline { width: 100%; height: 1px !important; }
+.jcrop-handle { font-size: 1px; width: 7px !important; height: 7px !important; border: 1px #eee solid; background-color: #333; }
+.jcrop-tracker { width: 100%; height: 100%; }
+.custom.jcrop-vline,
+.custom.jcrop-hline	{ background: yellow; }
+.custom.jcrop-handle { border-color: black; background-color: #c7bb00; }
