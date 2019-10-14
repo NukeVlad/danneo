@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /core/
+Disallow: /block/
+Disallow: /cache/
+Disallow: /mod/
+Disallow: /template/
+Disallow: /js/
+Disallow: /info/
+Disallow: /photos/
