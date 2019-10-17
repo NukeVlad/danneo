@@ -108,6 +108,9 @@ https://github.com/NukeVlad/dn-mod-firms
 Модуль "Отзывы" для Danneo CMS 1.5.1 (Next)
 https://github.com/NukeVlad/dn-mod-respond
 
+Модуль Видеогалерея для Danneo CMS v.1.5.3
+https://github.com/NukeVlad/dn-mod-video
+
 ФОРУМ ПОДДЕРЖКИ
 ================
 http://forum.danneo.ru
