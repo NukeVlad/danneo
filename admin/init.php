@@ -65,7 +65,7 @@ $ADMDIR = str_replace('\\', '/', $DNDIR.'/'.APANEL);
 /**
  * DOCUMENT_ROOT
  */
-$_SERVER['DOCUMENT_ROOT'] = str_replace($_SERVER['SCRIPT_NAME'], '', $_SERVER['SCRIPT_FILENAME']);
+$_SERVER['DOCUMENT_ROOT'] = str_ireplace($_SERVER['SCRIPT_NAME'], '', $_SERVER['SCRIPT_FILENAME']);
 
 /**
  * Базовые константы
@@ -194,7 +194,7 @@ define('ADMURL', SITE_URL.'/'.APANEL);
 /**
  * Абсолютный путь от корня, Каталог администратора
  */
-$ADMPATH = str_replace(DOCUMENT_ROOT, '', str_replace('\\', '/', __DIR__));
+$ADMPATH = str_replace(DOCUMENT_ROOT, '', str_ireplace('\\', '/', __DIR__));
 
 /**
  * Virtual ADMPATH
@@ -211,7 +211,7 @@ define('ADMPATH', $ADMPATH);
 /**
  * Relative PATH ROOT
  */
-$DNROOT = str_replace(DOCUMENT_ROOT, '', str_replace(APANEL, '', str_replace('\\', '/', __DIR__)));
+$DNROOT = str_replace(DOCUMENT_ROOT, '', str_ireplace(APANEL, '', str_replace('\\', '/', __DIR__)));
 
 $sub_domain = implode('', array_filter(explode('/', $DNROOT), 'trim'));
 $host_array = explode('.', parse_url(SITE_URL, PHP_URL_HOST));

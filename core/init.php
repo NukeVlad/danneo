@@ -81,7 +81,7 @@ $global['insert']['breadcrumb'] = NULL;
 /**
  * DOCUMENT_ROOT
  */
-$_SERVER['DOCUMENT_ROOT'] = str_replace($_SERVER['SCRIPT_NAME'], '', $_SERVER['SCRIPT_FILENAME']);
+$_SERVER['DOCUMENT_ROOT'] = str_ireplace($_SERVER['SCRIPT_NAME'], '', $_SERVER['SCRIPT_FILENAME']);
 
 /**
  * Function
@@ -91,7 +91,7 @@ require DNDIR.'core/function.php';
 /**
  * Relative path root
  */
-$DNROOT = str_replace(DOCUMENT_ROOT, '', str_replace('core', '', str_replace('\\', '/', __DIR__)));
+$DNROOT = str_replace(DOCUMENT_ROOT, '', str_ireplace('core', '', str_replace('\\', '/', __DIR__)));
 
 $sub_domain = implode('', array_filter(explode('/', $DNROOT), 'trim'));
 $host_array = explode('.', parse_url(SITE_URL, PHP_URL_HOST));
